@@ -24,30 +24,30 @@ $ git push origin master
 ```
 
 ### 4. Branch
-**'Show branch'
+**Show branch**
 ``` bash
 $ git branch
 ```
 
-**'Create branch'
+**Create branch**
 ```bash
 $ git branch <branch name>
 $ git push origin <branch name>
 ```
 
-**'Delete branch'
+**Delete branch**
 ```bash
 $ git branch -d <branch name>
 ```
 
-**'Checkout'
+**Checkout**
 ```bash
 $ git checkout -b <branch name> // Create branch and Move
 $ git checkout <branch name or master>
 ```
 
 ### 5. Log
-**'Commit Log'
+**Commit Log**
 ```bash
 $ git log
 or 
