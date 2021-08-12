@@ -23,6 +23,16 @@ $ git commit -m "[commit message]"
 $ git push origin master
 ```
 
+**Get recent commit**
+```bash
+$ git reset --hard <copy commit ID>
+```
+
+**Update commit version**
+```bash
+$ git fetch
+```
+
 ### 4. Branch
 **Show branch**
 ``` bash
@@ -33,6 +43,11 @@ $ git branch
 ```bash
 $ git branch <branch name>
 $ git push origin <branch name>
+```
+
+**Change branch name**
+```bash
+$ git branch -m <default> <change name>
 ```
 
 **Delete branch**
