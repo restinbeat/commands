@@ -68,3 +68,15 @@ $ git log
 or 
 $ git log --oneline
 ```
+
+### 6. Copy Repository
+**Copy all commits and tags.**
+copy repository : https://github.com/restinbeat/flutter-instagram.git
+new repository : https://github.com/restinbeat/flutter-qr.git
+
+```bash
+$ git clone --mirror https://github.com/restinbeat/flutter-instagram.git
+cd flutter-instagram.git/
+$ git remote set-url --push origin https://github.com/restinbeat/flutter-qr.git
+$ git push --mirror
+```
