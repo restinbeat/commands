@@ -71,7 +71,9 @@ $ git log --oneline
 
 ### 6. Copy Repository
 **Copy all commits and tags.**
+<br>
 copy repository : https://github.com/restinbeat/flutter-instagram.git
+<br>
 new repository : https://github.com/restinbeat/flutter-qr.git
 
 ```bash
