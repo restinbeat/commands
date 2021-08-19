@@ -15,7 +15,7 @@ $ git status
 $ git pull
 $ git add <file name>
 or
-$ git add
+$ git add .
 or
 $ git add -A 
 
@@ -81,4 +81,16 @@ $ git clone --mirror https://github.com/restinbeat/flutter-instagram.git
 cd flutter-instagram.git/
 $ git remote set-url --push origin https://github.com/restinbeat/flutter-qr.git
 $ git push --mirror
+```
+
+### 7. Git reset
+**Cancel recent commit**
+```bash
+$ git reset --soft
+$ git reset --soft HEAD^
+$ git reset --soft HEAD~<number>
+or
+$ git reset --mixed 
+or 
+$ git reset --hard
 ```
