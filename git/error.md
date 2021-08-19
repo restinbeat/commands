@@ -5,7 +5,8 @@
 
 ### 1. warning: LF will be replaced by CRLF
 
-**core.autocrlf off**
+**core.autocrlf**
 ```bash
-$ git config --global core.autocrlf false
+$ git config --global core.autocrlf true for Windows, DOS
+$ git config --global core.autocrlf input for Linux, MAC
 ```
