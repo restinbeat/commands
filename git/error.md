@@ -7,6 +7,6 @@
 
 **core.autocrlf**
 ```bash
-$ git config --global core.autocrlf true for Windows, DOS
+$ git config --global core.autocrlf false for Windows, DOS
 $ git config --global core.autocrlf input for Linux, MAC
 ```
