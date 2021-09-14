@@ -110,3 +110,17 @@ $ git reset --mixed
 or 
 $ git reset --hard
 ```
+
+### 8. Git histroy
+
+```bash
+$ git blame <file path>
+```
+
+### 8. Git 
+
+```bash
+$ git bisect start 
+$ git bisect good [good Commit ID]
+$ git bisect bad [bad Commit ID]
+```
