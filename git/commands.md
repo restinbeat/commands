@@ -117,7 +117,7 @@ $ git reset --hard
 $ git blame <file path>
 ```
 
-### 8. Git 
+### 9. Git 
 
 ```bash
 $ git bisect start 
